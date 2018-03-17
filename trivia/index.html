@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Trivia Crack Inspired - Spinning Wheel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" media="screen"
+        type="text/css" />
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+
+<body>
+    <style>
+        body {
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+
+        .card {
+            box-shadow: 2px 2px 2px 0px #808080;
+        }
+    </style>
+    <br>
+    <div class="container">
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" 
+                width="30" height="30" class="d-inline-block align-top" alt=""> CurlEats
+            </a>
+        </nav>
+    </div>
+    <div id="wrapper">
+        <div id="wheel">
+            <div id="inner-wheel">
+                <div class="sec">
+                    <span class="fa fa-bell-o"></span>
+                </div>
+                <div class="sec">
+                    <span class="fa fa-comment-o"></span>
+                </div>
+                <div class="sec">
+                    <span class="fa fa-smile-o"></span>
+                </div>
+                <div class="sec">
+                    <span class="fa fa-heart-o"></span>
+                </div>
+                <div class="sec">
+                    <span class="fa fa-star-o"></span>
+                </div>
+                <div class="sec">
+                    <span class="fa fa-lightbulb-o"></span>
+                </div>
+            </div>
+            <div id="spin">
+                <div id="inner-spin"></div>
+            </div>
+            <div id="shine"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <br>
+        <hr>
+        <div class="card-columns">
+            <div id="1" class="card bg-primary text-white text-center p-3">
+                <blockquote class="blockquote mb-0">
+                    <p>Truffles</p>
+                </blockquote>
+            </div>
+            <div id="2" class="card bg-secondary text-white text-center p-3">
+                <blockquote class="blockquote mb-0">
+                    <p>Kaifu</p>
+                </blockquote>
+            </div>
+            <div id="3" class="card bg-success text-white text-center p-3">
+                <blockquote class="blockquote mb-0">
+                    <p>Smally's</p>
+                </blockquote>
+            </div>
+            <div id="4" class="card bg-danger text-white text-center p-3">
+                <blockquote class="blockquote mb-0">
+                    <p>Leon Grill</p>
+                </blockquote>
+            </div>
+            <div id="5" class="card bg-warning text-white text-center p-3">
+                <blockquote class="blockquote mb-0">
+                    <p>Subway</p>
+                </blockquote>
+            </div>
+            <div id="6" class="card bg-info text-white text-center p-3">
+                <blockquote class="blockquote mb-0">
+                    <p>Biryani House</p>
+                </blockquote>
+            </div>
+            <div id="7" class="card bg-primary text-white text-center p-3">
+                <blockquote class="blockquote mb-0">
+                    <p>Aqni</p>
+                </blockquote>
+            </div>
+            <div id="8" class="card bg-warning text-white text-center p-3">
+                <blockquote class="blockquote mb-0">
+                    <p>McDonald's</p>
+                </blockquote>
+            </div>
+            <div id="9" class="card bg-success text-white text-center p-3">
+                <blockquote class="blockquote mb-0">
+                    <p>Street 24</p>
+                </blockquote>
+            </div>
+            <div id="10" class="card bg-danger text-white text-center p-3">
+                <blockquote class="blockquote mb-0">
+                    <p>KFC</p>
+                </blockquote>
+            </div>
+            <div id="11" class="card bg-info text-white text-center p-3">
+                <blockquote class="blockquote mb-0">
+                    <p>Burger King</p>
+                </blockquote>
+            </div>
+            <div id="12" class="card bg-secondary text-white text-center p-3">
+                <blockquote class="blockquote mb-0">
+                    <p>Plated</p>
+                </blockquote>
+            </div>
+
+        </div>
+        <hr>
+    </div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
